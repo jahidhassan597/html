@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: blueviolet;
+}
+#box{
+    background-color: rgb(120, 233, 49);
+    color: aqua;
+    text-align: center;
+    width: 50%;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.img{
+    width: 200px;
+}
+#box h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+input,label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    background-color: rgb(189, 188, 214);
+    color: rgb(159, 130, 130);
+    border: 1px solid;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+}
+p a{
+    text-decoration: none;
+    color: rgb(231, 121, 192);
+    text-transform: capitalize;
+}
+input[type="submit"]{
+    background-color: rgb(248, 230, 33);
+    border: 1px solid rgb(240, 124, 9);
+    margin: 15px auto;
+    width: 20%;
+    transition: ease-in-out 0.8s;
+}
+#btn:hover{
+    background-color: rgb(98, 43, 226);
+}
+input:focus{
+    background-color: rgb(32, 207, 16);
+}
+input::placeholder{
+    color: rgba(107, 43, 226, 0.536);
+}

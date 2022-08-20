@@ -1,0 +1,69 @@
+/* UNiversal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Element/Name Selector */
+body{
+    background-color: brown;
+}
+/* id Selector */
+#admin-box{
+background-color: aqua;
+color: red;
+text-align: center;
+width: 50%;
+margin:5% auto;
+padding: 30px;
+border-radius: 10px;
+}
+/* Class Selector */
+.admin-img{
+width:150px;
+}
+/* Decendent Selector */
+#admin-box h1{
+font-size: 35px;
+text-transform: uppercase;
+}
+/* Grouping Selector */
+input,label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+input{
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+}
+label{
+    font-size: 20px;
+}
+p{
+font-size: 20px;
+}
+p a{
+    text-decoration: none;
+    color: brown;
+    text-transform: capitalize;
+}
+input:focus{
+    background-color:rgb(20, 217, 128);
+}
+input::placeholder{
+    color: rosybrown;
+}
+input[type="submit"]{
+    background-color:rgb(20, 20, 217);
+    border: 1px solid cornsilk;
+    margin: 20px auto;
+    width: 25%;
+    transition: ease-in-out 0.8s;
+}
+#btn:hover{
+    background-color: aquamarine;
+}
